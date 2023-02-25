@@ -1,0 +1,446 @@
+*{
+   padding: 0%; margin:  0%; box-sizing: border-box;
+
+}
+
+.kl{
+   display: grid;
+   place-items: center;
+   color: white;
+   grid-column: 1;
+   font-size:0.7rem;
+   animation-name: time;
+   animation-duration: 9s;
+   animation-iteration-count: infinite;
+   
+}
+
+@keyframes time{
+
+   10%{
+      transform: rotate(360deg);
+
+   }
+
+}
+.kl:hover{
+   cursor: pointer;
+   color: chocolate;
+}
+
+body{
+   
+   background-color: rgb(255, 200, 0);}
+
+   .home{
+      
+      height: 34rem;
+   }
+.nav{
+   height: 5rem;
+   background-color: rgb(255, 204, 0);
+   display: grid;
+   grid-template-columns: 10rem 1fr 2fr 2fr 10rem;
+   box-shadow: 10px 10px 10px 10px rgb(217, 103, 22) ;
+} 
+
+.logo{
+   grid-column: 2;
+   display: grid;
+   place-items: center;
+}
+
+.img{
+   width: 8rem;
+   height: 2.5rem;
+   animation-name: hi;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+ 
+}
+
+@keyframes hi {
+
+   25%{
+      transform: scale(10);
+   }
+
+   25%{
+      transform: rotateY(20deg);
+      
+   }
+
+   50%{
+      transform: rotateX(30deg);
+      
+   }
+   100%{
+transform: rotate(0deg);
+   }
+
+}
+
+.img1{
+   grid-row: 2;
+   height: 25rem;
+    position: relative;   
+   animation-name: hassan;    
+ animation-duration: 8s;  
+animation-iteration-count: infinite;
+animation-direction:normal;
+}
+@keyframes hassan{
+   
+0%{
+   transform: translateY(-50px);
+}
+
+
+}
+   
+
+
+.img1:hover{
+   transform:rotate(10deg);
+   transition: 1s;
+}
+
+.tab ul{
+   display: flex;
+   justify-content:space-around;
+
+   height: 5rem;
+   align-items: center;  list-style: none;
+  
+
+}
+
+#colo{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 1.5rem;
+}
+
+.search{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.btn{
+   border: none;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 183, 255);
+ height: 2.1rem ;
+ width: 3rem ;
+ box-shadow: 10px 10px 10px 0.7px rgb(255, 141, 2);
+}
+
+.btn:hover{
+   color:yellow;
+   cursor: pointer;
+}
+
+.txt::placeholder{
+   color: rgb(255, 255, 255);
+}
+
+.txt{
+  
+   border: none;
+   background-color: rgba(229, 237, 4, 0.933);
+   outline: none;
+   height: 1.9rem ;
+   width:8.5rem ;
+   box-shadow: 10px 10px 10px 0.7px rgb(255, 141, 2);
+}
+
+::placeholder{
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+.home{
+   display: grid;
+   grid-template-columns: 5rem auto auto 5rem;
+  
+
+
+}
+
+.block1{
+   grid-column: 2;
+   display: grid;
+   grid-template-rows:  5rem 8rem 6rem 1rem 5rem;
+}
+
+
+.np{
+   grid-row: 2;
+   color: white;
+   font-size: 1.5rem;
+}
+
+
+.np1{
+   grid-row: 3;
+   color: white;
+   font-size: 1.3rem;
+}
+.xx{
+   grid-row: 4; 
+  display: grid;
+  grid-template-columns:  5rem 5rem;
+  column-gap: 3.5rem;
+}
+
+#colo:hover{
+
+   color:chocolate;
+
+ 
+   transition-duration: 0.6s;
+   }
+
+
+
+.btn1{
+   text-transform: capitalize;
+   border: none;
+   color: antiquewhite;
+   background-color: rgb(0, 145, 255);
+   height: 2.6rem;
+   width: 7rem;
+   border-radius: 0.4rem;
+   font-size: medium;
+   
+}
+
+.btn1:hover{
+   cursor:pointer; 
+   background-color:rgb(30, 192, 210);
+   color: rgb(255, 255, 255);
+
+}
+.btn2:hover{
+   cursor:pointer; 
+   background-color:orange;
+   /* border: none; */
+   border-color: white;
+   
+   
+
+}
+
+.btn2{
+   text-transform: capitalize;
+   font-size: medium;
+   border-style: solid;
+border-color: white;
+   color: rgb(255, 255, 255);
+   background-color: rgb(255, 208, 0);
+   height: 2.6rem;
+   width: 7rem;
+   border-radius: 0.4rem;
+}
+
+.dog{
+   display: grid;
+  grid-template-rows: 2rem 10rem;
+  justify-content: left;
+
+}
+
+
+
+.row{
+   display: grid;
+ grid-template-rows: 2rem 4rem auto ;
+ place-items: center;
+
+ 
+}
+
+.row1{
+   grid-row: 2;
+   display: grid;
+  place-items: center;
+  color: white;
+  font-size:larger;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  
+}
+.row2{
+   color: white;
+   font-size:larger;
+   font-weight: 300;
+   grid-row: 3;
+   display: grid;
+  place-items: center;
+  text-align: center;
+  
+  
+}
+
+
+.prow{
+   display: grid;
+   grid-template-rows: 3rem 1fr 3rem auto 2.5rem;
+   place-items: center;
+   
+
+}
+
+
+
+.row3{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr  1fr 1fr ;
+   column-gap: 2.4rem;
+  
+}
+
+.row7{
+   grid-column: 2;
+}
+
+
+.propimg{
+   grid-row: 2;
+   box-shadow: 10px 10px 10px 1px chocolate ;
+   height: 13rem;
+   width: 14rem;
+   
+}
+.prow:hover{
+   transition: 1s;
+   transform: scale(1.1);
+}
+.name{
+   grid-row: 3;
+   color: white; 
+   font-size: 1.7rem;
+   font-weight: bolder;
+   display: grid;
+   place-items: center;
+   text-align: center;
+
+  
+}
+
+.lor{
+   grid-row: 4;  
+   display: grid;
+   place-items: center;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: large;
+ font-weight: 300;
+}
+
+.half{
+   background-color: rgba(247, 239, 184, 0.919);
+   height: 30rem;
+   display: grid;
+   grid-template-columns: 1rem 20rem 25rem;
+   grid-template-rows: 2rem 1fr 1fr;
+   column-gap: 8.5rem;
+}
+
+.mv{
+   height: 18rem;
+   box-shadow: 10px 10px 10px 0.7px rgb(175, 172, 167);
+}
+
+.halfimg{
+   display: grid;
+   grid-column: 2;
+   grid-row: 2;
+   place-items: center;
+  
+}
+
+.halfimg1{
+   display: grid;
+   grid-column: 2;
+   grid-row: 2;
+   place-items: center;
+  
+}
+
+.mid{
+ display: grid;
+   grid-column: 2;
+   grid-row: 2;
+   place-items: center;
+}
+
+.mids{
+   height: 2.5rem;
+}
+
+
+.lo{
+   display: grid;
+   grid-column: 2;
+   grid-row: 2;
+   place-items: center;
+}
+
+.lo1{
+   height: 1.1rem;
+}
+
+.halftxt{
+   grid-column: 3;
+   grid-row: 2;
+   display: grid;
+   grid-template-rows: 7rem 5.7rem 6.7rem 7rem;
+   place-items: left;
+  
+}
+
+ .btn3{
+   
+   width: 7rem;
+   height: 2.5rem;
+   color: rgb(255, 255, 255);
+background-color: rgb(255, 204, 0);
+border-radius: 0.4rem;
+border: none;
+font-size: medium;
+
+} 
+.btn3:hover{
+   color: chocolate;
+   cursor: pointer;
+   font-weight: 300;
+}
+.btn3m{
+display: flex;
+justify-content: right;
+grid-row: 4;
+}
+
+.halfh2{
+  
+   font-size: 2rem;
+   text-align: right;
+   grid-row: 2;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.halfp{
+  
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   text-align: right;
+   grid-row: 3;
+}
+
+.footer{
+   background-color: rgb(36, 34, 34);
+   height: 10rem;
+}
+

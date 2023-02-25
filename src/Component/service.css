@@ -1,0 +1,100 @@
+*{
+    margin: 0%; padding: 0%; box-sizing: border-box;
+}
+
+.service{
+    display: grid;
+    grid-template-rows: 2rem 4rem auto;
+    place-items: center;
+}
+
+.srh1{
+    grid-row: 2;
+    display: grid;
+   place-items: center;
+   color: white;
+   font-size:larger;
+   font-family: Arial, Helvetica, sans-serif;}
+
+.srp{
+    color: white;
+    font-size:larger;
+    font-weight: 300;
+    grid-row: 3;
+    display: grid;
+   place-items: center;
+   text-align: center;
+}
+
+.das{
+    font-size: 1.3rem;
+ 
+ text-decoration: line-through;
+    color: rgb(255, 255, 255);
+}
+
+.pr{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.serviceimg{
+    box-shadow: 10px 10px 10px 1px chocolate ;
+    height: 13rem;
+    width: 14rem;
+}
+
+
+
+.srprop:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.srprop{
+    display: grid;
+    grid-template-rows: 3rem 1fr 3rem auto 2.5rem;
+    place-items: center;
+}
+
+.srcol{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr  1fr 1fr ;
+    column-gap: 2.4rem;
+}
+
+.nxt{
+    grid-column: 2;
+}
+
+.spropimg{
+ 
+    grid-row: 2;
+    height: 13rem;
+    width: 14rem;
+}
+.prop1{
+   
+    grid-row: 3;
+}
+
+.propbt{
+    display: grid;
+    place-items: center;
+    grid-row: 4;
+}
+
+.servicebtn{
+    font-size:medium;
+    border: none;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 1.5rem;
+    background-color: rgb(0, 170, 255);
+}
+
+.servicebtn:hover{
+    background-color: rgb(0, 85, 255);
+    cursor: pointer;
+}

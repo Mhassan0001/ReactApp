@@ -1,0 +1,279 @@
+/* ---------------------------------------------------------
+                            MAIN FOOTER
+------------------------------------------------------------ */
+
+.footer{
+   
+    background-color:#252626;
+    height: 30rem;
+    display:  grid;
+    grid-template-columns:1fr 15rem 15rem  20rem 1fr;;
+    grid-template-rows: 8rem auto auto;
+ 
+}
+/* ------------------------------------------------------
+                    FOOTER COLUMN 1
+------------------------------------------------------ */
+.footercol{
+    grid-row: 2;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 3.3rem 2rem 2rem 2rem 2rem 2rem;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footercolh1{
+font-size: 1.8rem;
+}
+.footercolp1{
+font-size: large;
+cursor:pointer; 
+}
+
+.footercolp2{
+    font-size: large;
+    cursor:pointer; 
+    }
+
+    .footercolp3{
+        font-size: large;
+        cursor:pointer; 
+        }
+
+
+        .footercolp4{
+            font-size: large;
+            cursor:pointer; 
+            }
+
+
+            .footercolp5{
+                font-size: large;
+                cursor:pointer; 
+                }
+
+/* ------------------------------------------------------
+                    FOOTER COLUMN 2
+------------------------------------------------------ */
+.footercol2{
+    grid-row: 2;
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: 3.3rem 2rem 2rem 2rem 2rem 2rem;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.footercol2h1{
+    font-size: 1.8rem;
+}
+
+.footercol2p1{
+    font-size: large;
+    cursor:pointer; 
+}
+
+
+.footercol2p2{
+    font-size: large;
+    cursor:pointer; 
+}
+
+.footercol2p3{
+    font-size: large;
+    cursor:pointer; 
+}
+
+.footercol2p4{
+    font-size: large;
+    cursor:pointer; 
+}
+
+.footercol2p5{
+    font-size: large;
+    cursor:pointer; 
+}
+/* ------------------------------------------------------
+                    FOOTER COLUMN 3
+------------------------------------------------------ */
+.footercol3{
+    grid-row: 2;
+    color: beige;
+    grid-column: 4;
+    display: grid;
+    grid-template-rows: 2.1rem 3.2rem 5rem 3rem ;
+place-items: start end;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footercol3h1{
+    font-size: 1.6rem;
+   
+}
+
+.footercol3p1{
+font-size: 1.1rem;
+}
+
+.footercol3p2{
+    display: grid;
+    grid-template-columns: auto auto;
+  
+   
+}
+
+
+
+
+
+.stylefootsearch{
+    width: 14rem;
+    height: 3.3rem;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    border: none;
+    outline: none;
+
+}
+
+
+
+.stylefootbtn{
+    width: 5rem;
+    height: 3.3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+    border: none;
+}
+
+.stylefootbtn:hover{
+    background-color: rgb(2, 152, 232);
+    color: orange;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------
+                      Social Button
+--------------------------------------------------------------- */
+.foobtn{
+    display: grid;
+    grid-template-columns: 2rem 2rem 2rem 2rem;
+  
+
+
+}
+
+.sfbtn1{
+
+  
+    border: none;
+    color: rgb(255, 255, 255);
+
+    cursor:pointer; 
+
+   background-color:#252626;
+}
+
+.sfbtn2{
+
+    cursor:pointer; 
+    border: none;
+    color: rgb(255, 255, 255);
+
+
+
+   background-color:#252626;
+}
+
+.sfbtn3{
+    cursor:pointer; 
+  
+    border: none;
+    color: rgb(255, 255, 255);
+
+
+
+   background-color:#252626;
+}
+
+
+.sfbtn4{
+
+    cursor:pointer; 
+    border: none;
+    color: rgb(255, 255, 255);
+
+
+
+   background-color:#252626;
+}
+
+.sfbtn1:hover{
+ color: rgb(255, 52, 248);
+
+}
+
+.sfbtn2:hover{
+    color: rgb(34, 56, 255);
+   }
+
+   .sfbtn3:hover{
+    color: rgb(43, 186, 226);
+   }
+
+   .sfbtn4:hover{
+    color:rgb(12, 208, 12);
+   }
+   /* ----------------------------------------------------------------
+                   HOVER IN COL 1
+   ----------------------------------------------------------------- */
+   .footercolp1:hover{
+        color: yellow;
+   }
+
+   .footercolp2:hover{
+    color: yellow;
+}
+
+.footercolp3:hover{
+    color: yellow;
+}
+
+
+.footercolp4:hover{
+    color: yellow;
+}
+
+.footercolp5:hover{
+    color: yellow;
+}
+
+.footercol3p1:hover{
+    color: yellow;
+}
+   /* ----------------------------------------------------------------
+                   HOVER IN COL 2
+   ----------------------------------------------------------------- */
+   .footercol2p1:hover{
+    color: orange;
+   }
+
+   .footercol2p2:hover{
+    color: orange;
+   }
+
+   .footercol2p3:hover{
+    color: orange;
+   }
+
+   .footercol2p4:hover{
+    color: orange;
+   }
+
+   .footercol2p5:hover{
+    color: orange;
+   }
