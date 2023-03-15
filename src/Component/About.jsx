@@ -1,4 +1,3 @@
-
 import Abprop from './Abprop';
 import c from './img/Shape.png';
 import d from './img/d.png';
