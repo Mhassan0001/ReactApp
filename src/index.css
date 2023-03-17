@@ -8,7 +8,7 @@
    place-items: center;
    color: white;
    grid-column: 1;
-   font-size:0.7rem;
+   font-size:0.6rem;
    animation-name: time;
    animation-duration: 9s;
    animation-iteration-count: infinite;
@@ -19,6 +19,7 @@
 
    10%{
       transform: rotate(360deg);
+      
 
    }
 
@@ -92,7 +93,15 @@ animation-direction:normal;
 @keyframes hassan{
    
 0%{
-   transform: translateY(-50px);
+   transform: translate(150px);
+
+}
+
+10%{
+
+   transform: rotate(-10deg);
+   
+
 }
 
 
